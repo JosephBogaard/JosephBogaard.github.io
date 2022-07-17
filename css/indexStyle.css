@@ -1,0 +1,51 @@
+:root {
+    --primary-text: rgb(0, 175, 0);
+    --secondary-text: green;
+    --tertiary-text: rgb(15, 105, 15);
+    /*rgb(0, 175, 0)*/
+
+    --primary-bg-color: black;
+    --secondary-bg-color: rgb(66, 66, 66);
+    --tertiary-bg-color: grey;
+    /*rgb(37, 37, 37)*/
+}
+
+h1{
+    color: white;
+}
+body {
+    color: var(--primary-text, black);
+    background-color: var(--primary-bg-color, white);
+}
+
+
+button.btn1 {
+    background-color: var(--primary-bg-color, white);
+    color: var(--primary-text, black);
+    border: 0px;
+}
+button.btn1:hover {
+    background-color: var(--secondary-bg-color, white);
+}
+
+#divForm {
+    background-color: lightgrey;
+}
+
+#contactInfo {
+    text-align: center;
+    border-width: 0cm;
+    line-height: 0.5cm;
+}
+
+#contactInfoH1 {
+    font-size: 48pt;
+}
+
+#contactInfoH2 {
+    font-size: 28pt;
+}
+
+#contactInfoH3 {
+    font-size: 24pt;
+}
