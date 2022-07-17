@@ -67,6 +67,7 @@ div#headerThree{
 }*/
 
 button#headButton {
+    color: var(--primary-text, black);
     background-color: var(--primary-bg-color, grey);
     background-image: url(https://josephbogaard.github.io/css/static/Home.png);
     background-size: 100%;
