@@ -67,7 +67,7 @@ div#headerThree{
     float: left;
 }*/
 
-button#headButton {
+button.btn2 {
     color: var(--primary-text, black);
     background-color: var(--primary-bg-color, grey);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
@@ -77,12 +77,44 @@ button#headButton {
     font-size: 24pt;
     /*border-color: black;*/
     border: 0px;
+    position: relative;
+}
+button.btn2:hover {
+    background-color: var(--secondary-bg-color, white);
+}
+/*
+button.btn3 {
+    color: var(--primary-text, black);
+    background-color: var(--quaternary-bg-color, grey);
+    /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*//*
+    background-size: 100%;
+    /*height: 55px;
+    width: 55px;*/
+    font-size: 24pt;
+    /*border-color: black;*/
+    border: 0px;
+    position: relative;
+}
+button.btn3:hover {
+    background-color: var(--secondary-bg-color, white);
+}
+
+button#headButton {
+    color: var(--primary-text, black);
+    background-color: var(--primary-bg-color, grey);
+    /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
+    background-size: 100%;
+    /*height: 55px;
+    width: 55px;*/
+    font-size: 24pt;
+    /*border-color: black;*//*
+    border: 0px;
     position: absolute;
 }
 button#headButton:hover {
     background-color: var(--secondary-bg-color, white);
     border: 4px black;
-}
+}*/
 
 b#headBold{
     font-size: 48px;
