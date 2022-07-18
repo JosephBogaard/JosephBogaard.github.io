@@ -10,6 +10,35 @@
     /*rgb(37, 37, 37)*/
 }
 
+
+/**/
+div#contactInfo {
+    /*background-color: var(--secondary-bg-color, grey);*/
+    color: var(--primary-text);
+    text-align: center;
+    border-width: 0cm;
+    padding: 0px;
+}
+
+h1#contactInfoH1 {
+    margin-top: 0px;/*Here is the room after the header*/
+    font-size: 48pt;
+    line-height: 0.5cm;
+    padding-top: 36px;/*18px standard here*/
+}
+
+h2#contactInfoH2 {
+    font-size: 28pt;
+    line-height: 0.5cm;
+}
+
+h3#contactInfoH3 {
+    font-size: 24pt;
+    line-height: 0.1cm;
+    padding-bottom: 5px;
+}
+/**/
+
 h1{
     color: white;
 }
