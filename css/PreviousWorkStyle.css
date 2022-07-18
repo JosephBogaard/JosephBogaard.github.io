@@ -99,7 +99,7 @@ button.btn2 {
     font-size: 24pt;
     /*border-color: black;*/
     border: 0px;
-    position: absolute;
+    position: relative;
 }
 button.btn2:hover {
     background-color: var(--secondary-bg-color, white);
