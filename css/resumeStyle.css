@@ -66,6 +66,9 @@ div#headerTwo{
 div#headerThree{
     float: left;
 }*/
+div.absolute{
+    position: absolute;
+}
 
 button.btn2 {
     color: var(--primary-text, black);
@@ -82,7 +85,7 @@ button.btn2 {
 button.btn2:hover {
     background-color: var(--secondary-bg-color, white);
 }
-/*
+
 button.btn3 {
     color: var(--primary-text, black);
     background-color: var(--quaternary-bg-color, grey);
