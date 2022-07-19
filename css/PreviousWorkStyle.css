@@ -68,7 +68,8 @@ div#headerThree{
 }*/
 
 div.absolute{
-    position: absolute;
+ position: absolute;
+ border: 3px dashed var(--tertiary-bg-color, white);
 }
 
 button.btn2 {
