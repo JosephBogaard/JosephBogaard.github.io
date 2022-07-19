@@ -73,7 +73,7 @@ div.absolute{
 
 button.btn2 {
     color: var(--primary-text, black);
-    background-color: var(--quaternary-bg-color, grey);
+    background-color: var(--secondary-bg-color, white);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
     background-size: 100%;
     /*height: 55px;
@@ -84,12 +84,12 @@ button.btn2 {
     position: relative;
 }
 button.btn2:hover {
-    background-color: var(--secondary-bg-color, white);
+    background-color: var(--quaternary-bg-color, grey);
 }
 
 button.btn3 {
     color: var(--primary-text, black);
-    background-color: var(--primary-bg-color, grey);
+    background-color: var(--secondary-bg-color, white);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
     background-size: 100%;
     /*height: 55px;
@@ -100,7 +100,7 @@ button.btn3 {
     position: relative;
 }
 button.btn3:hover {
-    background-color: var(--secondary-bg-color, white);
+    background-color: var(--quaternary-bg-color, grey);
 }
 /*
 button#headButton {
