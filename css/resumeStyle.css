@@ -89,7 +89,7 @@ button.btn2:hover {
 
 button.btn3 {
     color: var(--primary-text, black);
-    background-color: var(--secondary-bg-color, white);
+    background-color: var(--primary-bg-color, white);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
     background-size: 100%;
     /*height: 55px;
