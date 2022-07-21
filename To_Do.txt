@@ -1,2 +1,3 @@
 Mobile version
 Need to add borders to the nav bar
+Add more cool stuff? A database? Read code from this txt to a page?
