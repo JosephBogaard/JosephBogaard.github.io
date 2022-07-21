@@ -491,3 +491,120 @@ button#footerButton:hover {
     background-color: var(--secondary-bg-color, white);
     border: 4px black;
 }
+
+
+
+/*Mobile & Tablet Patch*/
+
+@media (max-width: 1480px){
+    div.absolute{
+        position: relative;
+        /*padding-right: 3px;
+        padding-bottom: 3px;
+        background-color: var(--tertiary-bg-color, white);*/
+        border-right: 0px;
+        border-bottom: 3px solid var(--tertiary-bg-color, white);
+    }
+    body{
+        --primary-text: rgb(0, 175, 0);
+        --secondary-text: green;
+        --tertiary-text: rgb(15, 105, 15);
+        /*rgb(0, 175, 0)*/
+        --primary-bg-color: black;
+        --secondary-bg-color: rgb(66, 66, 66);
+        --tertiary-bg-color: grey;
+        --quaternary-bg-color: rgb(33, 33, 33);
+    }
+    button.btn1 {
+        width: 100%;
+        height: 100%;
+    }
+    button.btn2 {
+        width: 100%;
+        height: 100%;
+    }
+    button.btn3 {
+        width: 100%;
+        height: 100%;
+    }/*Make it a grid?*/
+}
+
+@media (max-width: 500px){
+    div.absolute{
+        position: relative;
+        border-right: 0px;
+        border-bottom: 3px solid var(--tertiary-bg-color, white);
+    }
+    body{
+        --primary-text: rgb(0, 175, 0);
+        --secondary-text: green;
+        --tertiary-text: rgb(15, 105, 15);
+        --primary-bg-color: black;
+        --secondary-bg-color: rgb(66, 66, 66);
+        --tertiary-bg-color: grey;
+        --quaternary-bg-color: rgb(33, 33, 33);
+    }
+    button.btn1 {
+        width: 100%;
+        height: 100%;
+    }
+    button.btn2 {
+        width: 100%;
+        height: 100%;
+    }
+    button.btn3 {
+        width: 100%;
+        height: 100%;
+    }
+    h1#contactInfoH1{
+        font-size: 32pt;
+    }
+    h2#contactInfoH2{
+        font-size: 20pt;
+    }
+    h3#contactInfoH3{
+        font-size: 16pt;
+    }
+}
+@media (max-width: 340px){
+    div.absolute{
+        position: relative;
+        border-right: 0px;
+        border-bottom: 3px solid var(--tertiary-bg-color, white);
+    }
+    body{
+        --primary-text: rgb(0, 175, 0);
+        --secondary-text: green;
+        --tertiary-text: rgb(15, 105, 15);
+        --primary-bg-color: black;
+        --secondary-bg-color: rgb(66, 66, 66);
+        --tertiary-bg-color: grey;
+        --quaternary-bg-color: rgb(33, 33, 33);
+    }
+    button.btn1 {
+        width: 100%;
+        height: 100%;
+        font-size: 14pt;
+    }
+    button.btn2 {
+        width: 100%;
+        height: 100%;
+        font-size: 14pt;
+    }
+    button.btn3 {
+        width: 100%;
+        height: 100%;
+        font-size: 14pt;
+    }
+    h1#contactInfoH1{
+        font-size: 24pt;
+        line-height: 0.7cm;
+    }
+    h2#contactInfoH2{
+        font-size: 20pt;
+        line-height: 0.7cm;
+    }
+    h3#contactInfoH3{
+        font-size: 14pt;
+    }
+}
