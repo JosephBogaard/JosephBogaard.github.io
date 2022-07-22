@@ -1,5 +1,5 @@
 Mobile version
-Change display to a grid for "Work Experience" in "Resume" at max 832px width
+Change display to a grid for "Work Experience" in "Resume" at max 830px width
 
 Fix home display to for "Home" at max 1566px width
 
