@@ -56,25 +56,34 @@ img#FiniteHead{
     width: 100px;
     height: 100px;
 }
-/*
-div#headerOne{ 
-}
-
-div#headerTwo{
-}
-
-div#headerThree{
-    float: left;
-}*/
 
 div.absolute{
- position: absolute;
- border: 3px dashed var(--tertiary-bg-color, white);
+    position: absolute;
+    /*border-right: 3px dashed var(--tertiary-bg-color, white);
+    border-bottom: 3px dashed var(--tertiary-bg-color, white);*/
+    border-right: 3px solid var(--tertiary-bg-color, white);
+    border-bottom: 3px solid var(--tertiary-bg-color, white);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+button.btn1 {
+    color: var(--primary-text, black);
+    background-color: var(--quaternary-bg-color, grey);
+    /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
+    background-size: 100%;
+    font-size: 24pt;
+    /*border-color: black;*/
+    border: 0px;
+    width: 100%;
+}
+button.btn1:hover {
+    background-color: var(--secondary-bg-color, white);
 }
 
 button.btn2 {
     color: var(--primary-text, black);
-    background-color: var(--secondary-bg-color, white);
+    background-color: var(--primary-bg-color, grey);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
     background-size: 100%;
     /*height: 55px;
@@ -82,26 +91,26 @@ button.btn2 {
     font-size: 24pt;
     /*border-color: black;*/
     border: 0px;
-    position: relative;
+    width: 100%;
 }
 button.btn2:hover {
-    background-color: var(--quaternary-bg-color, grey);
+    background-color: var(--secondary-bg-color, white);
 }
 
 button.btn3 {
     color: var(--primary-text, black);
-    background-color: var(--primary-bg-color, white);
+    background-color: var(--quaternary-bg-color, grey);
     /*background-image: url(https://josephbogaard.github.io/css/static/Home.png);*/
     background-size: 100%;
     /*height: 55px;
     width: 55px;*/
     font-size: 24pt;
-    /*border-color: black;*/
-    border: 0px;
-    position: relative;
+    /*border-color: --secondary-bg-color;*/
+    border: 1px;
+    width: 100%;
 }
 button.btn3:hover {
-    background-color: var(--quaternary-bg-color, grey);
+    background-color: var(--secondary-bg-color, white);
 }
 
 b#headBold{
@@ -144,40 +153,6 @@ div#text-boxes {
     margin: 1px;
     height: 45px;
 }
-
-/*
-.button1 {
-    background-color: #4CAF50;
-}
-.button1:hover {
-    
-    background-color: #3a499e;
-}
-
-#btn1 {
-    background-color: lightblue;
-    border-color: white;
-}
-#btn1:hover {
-    background-color: lightseagreen;
-}
-
-#divForm {
-    background-color: lightgrey;
-}*/
-/*
-#btn1 {
-    background-color: var(--primary-bg-color, white);
-    color: var(--primary-text, black);
-    /*border-color: black;*//*
-    border: 0px;
-}
-
-#btn1:hover {
-    background-color: var(--secondary-bg-color, grey);
-    border: 4px black;
-}*/
-
 
 /*
 #text2 {
