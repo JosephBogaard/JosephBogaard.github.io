@@ -3,6 +3,10 @@ Change display to a grid for "Work Experience" in "Resume" at max 830px width
 
 Fix home display to for "Home" at max 1566px width
 
+Change display to a list for "Skills" in "Resume" at max 1026px width
+
+
+
 Add more cool stuff? A database? Read code from this txt to a page?
 
 Show off cool work
