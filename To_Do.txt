@@ -9,4 +9,4 @@ Change display to a list for "Skills" in "Resume" at max 1026px width
 
 Add more cool stuff? A database? Read code from this txt to a page?
 
-Show off cool work
+Show off cool work & projects (Reddit API, LSTM run on BSS, some kind of data analysis)
