@@ -553,3 +553,12 @@ button#footerButton:hover {
         margin-bottom: 4px;
     }
 }
+
+
+/*Temp fix 2022-09-20*/
+
+@media (max-width: 250px){
+    h3#contactInfoH3{
+     font-size: font-size: clamp(9pt,5vw,24pt);
+ }
+}
