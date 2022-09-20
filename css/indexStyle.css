@@ -128,7 +128,7 @@ button.btn1:hover {
 @media (max-width: 1590px){
     /*Temp fix 2022-09-20*/
     h1#contactInfoH1, h2#contactInfoH2, h3#contactInfoH3 {
-        line-height: 100%;
+        line-height: 200%;
     }
     div.flex-item1, div.flex-item2, div#flex-bottom1, div#flex-bottom2 {
         width:100%;
